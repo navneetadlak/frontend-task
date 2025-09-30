@@ -1,6 +1,8 @@
 import './App.css'
+import { Features } from './components/features';
 import { Header } from './components/Header';
 import { HeroSection } from './components/hero-section';
+import { Popular } from './components/popular';
 import { Tutorials } from './components/tutorials';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <HeroSection />
       <Tutorials />
+      <Features />
+      <Popular />
     </>
   )
 }
