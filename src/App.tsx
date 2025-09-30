@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
-      <Header />
-      <HeroSection />
+      <div className='px-32 bg-gradient-to-r from-[#E0F5FA] to-[#FFFDE6]'>
+        <Header />
+        <HeroSection />
+      </div>
       <Tutorials />
       <Features />
       <Popular />
