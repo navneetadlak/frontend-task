@@ -3,6 +3,7 @@ import { Features } from './components/features';
 import { Header } from './components/Header';
 import { HeroSection } from './components/hero-section';
 import { Popular } from './components/popular';
+import { Pricing } from './components/pricing';
 import { Tutorials } from './components/tutorials';
 import { Workflow } from './components/workflow';
 
@@ -18,6 +19,7 @@ function App() {
       <Features />
       <Popular />
       <Workflow />
+      <Pricing />
     </>
   )
 }
