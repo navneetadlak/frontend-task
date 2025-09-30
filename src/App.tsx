@@ -1,10 +1,13 @@
 import './App.css'
+import { Header } from './components/Header';
+import { HeroSection } from './components/hero-section';
 
 function App() {
 
   return (
     <>
-      <h1 className='text-5xl font-bold'>getting started with project</h1>
+      <Header />
+      <HeroSection />
     </>
   )
 }
