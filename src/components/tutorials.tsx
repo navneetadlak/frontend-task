@@ -3,7 +3,7 @@ import { Eye, Star, Play } from "lucide-react"
 const tutorials = [
     {
         id: 1,
-        image: "/person-working-on-laptop-from-above-with-notebook-.jpg",
+        image: "/image-2.png",
         rating: 5.0,
         reviews: 392,
         title: "How to work with prototype design with adobe xd featuring tools",
@@ -11,7 +11,7 @@ const tutorials = [
     },
     {
         id: 2,
-        image: "/person-working-on-laptop-from-above-with-notebook-.jpg",
+        image: "/image-3.png",
         rating: 4.5,
         reviews: 524,
         title: "Create multiple artboard by using figma prototyping tools development",
@@ -19,7 +19,7 @@ const tutorials = [
     },
     {
         id: 3,
-        image: "/hands-typing-on-laptop-keyboard-with-plants-and-gl.jpg",
+        image: "/image-4.png",
         rating: 5.0,
         reviews: 392,
         title: "Convert your web layout theming easily with sketch zeplin extension",
@@ -29,12 +29,12 @@ const tutorials = [
 
 export function Tutorials() {
     return (
-        <section className="py-20 px-6 bg-white p-52">
-            <div className="max-w-7xl mx-auto">
+        <section className="py-16 px-18 bg-white ">
+            <div className="max-w-6xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-16">
-                    <p className="text-[#ff9a3c] text-sm font-semibold tracking-wider uppercase mb-3">QUALITY FEATURES</p>
-                    <h2 className="text-4xl md:text-5xl font-bold text-[#1a1f4d]">Tutorials that people love most</h2>
+                    <p className="text-[#EF9E48] text-sm font-semibold tracking-wider uppercase mb-3">QUALITY FEATURES</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#0F2137] leading-14">Tutorials that people love most</h2>
                 </div>
 
                 {/* Tutorial Cards Grid */}
@@ -52,11 +52,11 @@ export function Tutorials() {
                                     className="w-full h-64 object-cover"
                                 />
                                 {/* Play Button Overlay */}
-                                <div className="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/30 transition-colors">
+                                {/* <div className="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-black/30 transition-colors">
                                     <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                                         <Play className="w-8 h-8 text-[#1a1f4d] ml-1" fill="#1a1f4d" />
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             {/* Card Content */}
@@ -82,10 +82,10 @@ export function Tutorials() {
                                 </div>
 
                                 {/* Tutorial Title */}
-                                <h3 className="text-lg font-semibold text-[#1a1f4d] mb-4 leading-snug">{tutorial.title}</h3>
+                                <h3 className="text-xl font-bold text-[#0F2137] mb-4 leading-7">{tutorial.title}</h3>
 
                                 {/* Students Watched */}
-                                <div className="flex items-center gap-2 text-gray-500">
+                                <div className="flex items-center gap-2 text-[#343D48]">
                                     <Eye className="w-5 h-5" />
                                     <span className="text-sm">{tutorial.students.toLocaleString()} students watched</span>
                                 </div>

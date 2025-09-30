@@ -91,11 +91,11 @@ export function Popular() {
 
     return (
         <section className="py-8 px-20 bg-[#ffffff]">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-6xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-16">
-                    <p className="text-orange-500 text-sm font-semibold tracking-wider uppercase mb-4">QUALITY FEATURES</p>
-                    <h2 className="text-4xl md:text-5xl font-bold text-[#1a1f4d]">Popular Designing Course</h2>
+                    <p className="text-[#EF9E48] text-sm font-bold tracking-wider uppercase mb-4">QUALITY FEATURES</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#0F2137]">Popular Designing Course</h2>
                 </div>
 
                 {/* Course List */}
@@ -109,7 +109,7 @@ export function Popular() {
                                 {/* Play Button */}
                                 <div className="flex-shrink-0">
                                     <div className="w-16 h-16 rounded-full bg-orange-50 flex items-center justify-center">
-                                        <Play className="w-8 h-8 text-orange-500 fill-orange-500" />
+                                        <Play className="w-8 h-8 text-[#EF9E48] fill-[#ed973c]" />
                                     </div>
                                 </div>
 
@@ -128,10 +128,10 @@ export function Popular() {
                                     </div>
 
                                     {/* Course Title */}
-                                    <h3 className="text-xl font-semibold text-[#1a1f4d] mb-3">{course.title}</h3>
+                                    <h3 className="text-xl font-bold text-[#0F2137] leading-8 mb-3">{course.title}</h3>
 
                                     {/* Course Description */}
-                                    <p className="text-gray-600 mb-4">{course.description}</p>
+                                    <p className="text-[#5D646D] font-normal text-sm mb-4">{course.description}</p>
 
                                     {/* Course Features (if expanded) */}
                                     {course.features && expandedCourse === course.id && (
