@@ -1,5 +1,8 @@
 import './App.css'
+import { FAQ } from './components/f&q';
 import { Features } from './components/features';
+import { Footer } from './components/footer';
+import { FreeCourse } from './components/freecourse';
 import { Header } from './components/Header';
 import { HeroSection } from './components/hero-section';
 import { Popular } from './components/popular';
@@ -20,6 +23,9 @@ function App() {
       <Popular />
       <Workflow />
       <Pricing />
+      <FreeCourse />
+      <FAQ />
+      <Footer />
     </>
   )
 }
