@@ -36,12 +36,12 @@ export function FAQ() {
   }
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-16 px-4 bg-white">
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <p className="text-orange-500 text-sm font-semibold tracking-wider uppercase mb-3">FREQUENT QUESTION</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1a1f4d]">Do you have any question</h2>
+          <p className="text-[#EF9E48] text-sm font-bold tracking-wider uppercase mb-3">FREQUENT QUESTION</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0F2137] leading-14">Do you have any question</h2>
         </div>
 
         {/* FAQ List */}
@@ -61,14 +61,14 @@ export function FAQ() {
                       <Plus className="w-6 h-6 text-teal-500" />
                     )}
                   </div>
-                  <h3 className="text-lg font-medium text-[#1a1f4d]">{faq.question}</h3>
+                  <h3 className="text-lg font-medium text-[#0F2137]">{faq.question}</h3>
                 </div>
               </button>
 
               {/* Answer */}
               {expandedId === faq.id && (
                 <div className="px-6 pb-6 pl-16">
-                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                  <p className="text-[#343D48] font-normal text-lg leading-relaxed">{faq.answer}</p>
                 </div>
               )}
             </div>

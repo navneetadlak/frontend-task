@@ -1,11 +1,11 @@
 export function Footer() {
     return (
-        <footer className="bg-gray-50 py-16 px-4">
-            <div className="max-w-7xl mx-auto">
+        <footer className="bg-white py-10 px-4">
+            <div className="max-w-4xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* About Us Column */}
                     <div>
-                        <h3 className="text-lg font-bold text-slate-900 mb-6">About Us</h3>
+                        <h3 className="text-lg font-medium text-[#0F2137] mb-6">About Us</h3>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#" className="text-slate-600 hover:text-teal-500 transition-colors">
@@ -37,7 +37,7 @@ export function Footer() {
 
                     {/* Our Information Column */}
                     <div>
-                        <h3 className="text-lg font-bold text-slate-900 mb-6">Our Information</h3>
+                        <h3 className="text-lg font-medium text-[#0F2137] mb-6">Our Information</h3>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#" className="text-slate-600 hover:text-teal-500 transition-colors">
@@ -69,7 +69,7 @@ export function Footer() {
 
                     {/* My Account Column */}
                     <div>
-                        <h3 className="text-lg font-bold text-slate-900 mb-6">My Account</h3>
+                        <h3 className="text-lg font-medium text-[#0F2137] mb-6">My Account</h3>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#" className="text-slate-600 hover:text-teal-500 transition-colors">
@@ -101,7 +101,7 @@ export function Footer() {
 
                     {/* Policy Column */}
                     <div>
-                        <h3 className="text-lg font-bold text-slate-900 mb-6">Policy</h3>
+                        <h3 className="text-lg font-medium text-[#0F2137] mb-6">Policy</h3>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#" className="text-slate-600 hover:text-teal-500 transition-colors">

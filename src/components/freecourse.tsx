@@ -2,8 +2,8 @@ import { Star, Eye, Check } from "lucide-react"
 
 export function FreeCourse() {
   return (
-    <section className="py-20 px-4 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-10 px-4 bg-white">
+      <div className="max-w-4xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Image with course card */}
           <div className="relative">
@@ -34,7 +34,7 @@ export function FreeCourse() {
             <div className="relative rounded-lg overflow-hidden">
               <img
                 src="/people-working-on-laptops-from-above-view.jpg"
-                alt="People working on laptops"
+                alt=""
                 className="w-full h-auto"
               />
             </div>
@@ -82,15 +82,15 @@ export function FreeCourse() {
 
           {/* Right side - Content */}
           <div>
-            <div className="text-[#ff9a3c] text-sm font-semibold tracking-wider uppercase mb-4">FREE TUTORIAL</div>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1a1f4d] mb-6 leading-tight">
+            <div className="text-[#EF9E48] text-sm font-semibold tracking-wider uppercase mb-4">FREE TUTORIAL</div>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#0F2137] mb-6 leading-tight">
               More than thousand of free tutorial upload every weeks
             </h2>
-            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+            <p className="text-[#02073E] font-normal text-lg mb-8 leading-relaxed">
               Get your tests delivered at let home collect sample from the victory of the managments that supplies best
               design system guidelines ever. Get your tests delivered at let home collect sample.
             </p>
-            <button className="bg-[#fff4e6] text-[#ff9a3c] px-8 py-3 rounded-md font-medium hover:bg-[#ffe8cc] transition-colors">
+            <button className="bg-[#fff4e6] text-[#EF9E48] px-8 py-3 rounded-md font-medium hover:bg-[#ffe8cc] transition-colors">
               Explore details
             </button>
           </div>
